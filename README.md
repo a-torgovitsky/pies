@@ -3,8 +3,18 @@
 This repository contains code for the simulations in [_Partial Identification by Extending
 Subdistributions_](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhdG9yZ292aXRza3l8Z3g6MTIwMTM3MDlhYzAzNzlh) (PIES) by
 [Alexander Torgovitsky](https://sites.google.com/site/atorgovitsky/).  
+The paper is forthcoming in _Quantitative Economics_ as of April
+9, 2018.  
+<!--_QE_ is an open access journal, so the published version can be [freely-->
+<!--downloaded (fill link)](link).-->
 
-### Software Prerequisites
+### Important
+
+The code included in the supplemental material for _Quantitative Economics_ is from April 9, 2018.  
+Please download the most recent version of the code from the
+[GitHub repository][GitHub].
+
+### Software Requirements
 
 * [MATLAB](https://www.mathworks.com/products/matlab.html).
 
@@ -26,7 +36,7 @@ Subdistributions_](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdG
 
 * Linux (or perhaps OSX).
 
- I coded these simulations for Linux and made no attempt to be platform-independent.  
+ I coded these simulations in Linux and made no attempt to be platform-independent.  
  However, the code is primarily in MATLAB, so should be mostly
  platform-independent.  
  Some file operations are used for recording the results of simulations.  
@@ -84,7 +94,7 @@ The numerical results in the published paper were run with
 ### Software Acknowledgment
 
 The code uses the MATLAB function
-[MergeBrackets.m](https://www.mathworks.com/matlabcentral/fileexchange/24254-interval-merging) developed by Bruno Luong.  
+[MergeBrackets.m](https://www.mathworks.com/matlabcentral/fileexchange/24254-interval-merging) written by Bruno Luong.  
 A copy of this code is included in `./src/MergeBrackets.m`.
 
 ### Problems or Bugs?
