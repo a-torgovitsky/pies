@@ -1,12 +1,8 @@
 ## PIES
 
-This repository contains code for the simulations in [_Partial Identification by Extending
-Subdistributions_](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhdG9yZ292aXRza3l8Z3g6MTIwMTM3MDlhYzAzNzlh) (PIES) by
-[Alexander Torgovitsky](https://sites.google.com/site/atorgovitsky/).  
-The paper is forthcoming in _Quantitative Economics_ as of April
-9, 2018.  
-<!--_QE_ is an open access journal, so the published version can be [freely-->
-<!--downloaded (fill link)](link).-->
+This repository contains code for the simulations in
+[Torgovitsky, A.](https://a-torgovitsky.github.io/) (2019), ["Partial Identification by Extending Subdistributions."
+_Quantitative Economics_, 10 (1), pp. 105–144, doi:10.3982/QE634](https://doi.org/10.3982/QE634)
 
 ### Important
 
@@ -28,7 +24,7 @@ Please download the most recent version of the code from the
 * A linear programming solver for AMPL.
 
  The default is [Gurobi](http://www.gurobi.com/).  
- It can easily be changed by passing e.g.  `Settings.IdentifiedSet = 'cplex'`
+ It can easily be changed by passing e.g.  `Settings.LPSolver = 'cplex'`
  when calling `./src/IdentifiedSet.m`.  
  See the discussion on usage below.
 
